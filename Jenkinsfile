@@ -1,7 +1,7 @@
 pipeline {
         agent any
         environment {
-            registry = "melwinambatt"
+            registry = "melwinambatt/sprint6"
             registryCredential = 'dockerhubcredential'
             dockerImage = ''
 		PROJECT_ID = 'eighth-pen-279005'
